@@ -625,7 +625,7 @@
 		7E693B9D23144B6C004CF945 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				INFOPLIST_FILE = "watch-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -636,6 +636,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evkhramk.watch-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.evkhramk.watch-extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -647,7 +648,7 @@
 		7E693B9E23144B6C004CF945 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				INFOPLIST_FILE = "watch-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,6 +659,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evkhramk.watch-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.evkhramk.watch-extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -669,7 +671,7 @@
 		7E693B9F23144B6C004CF945 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				INFOPLIST_FILE = "watch-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -680,6 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evkhramk.watch-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.evkhramk.watch-extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
